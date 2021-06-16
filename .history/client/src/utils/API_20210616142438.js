@@ -23,22 +23,20 @@ const GetRepos = () => {
   }, []);
 
   return (
-    <React.Fragment>
-      {
-        repos.map(repo => {
-          return <Card style={{ width: '25rem', marginRight: '1rem' }}>
-            <Card.Img variant="top" src={`https://react-portfolio-rob.s3.amazonaws.com/${repo.id}.png`} />
-            <Card.Body>
-              <Card.Title>{repo.name}</Card.Title>
-              <Card.Text>
-                {repo.description}
-              </Card.Text>
-              <Button variant="primary" style={{ width: '100%' }}>{repo.html_url}</Button>
-            </Card.Body>
-          </Card>
-        })
-      }
-    </React.Fragment>
+    <div>
+      {repos.map(repo => {
+        return <Card style={{ width: '18rem' }}>
+          {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
+          <Card.Body>
+            <Card.Title>{repo.name}</Card.Title>
+            <Card.Text>
+              {repo.description}
+            </Card.Text>
+            <Button variant="primary">{repo.html_url}</Button>
+          </Card.Body>
+        </Card>
+      })}
+    </div>
 
 
 

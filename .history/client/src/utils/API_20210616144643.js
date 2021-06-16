@@ -27,7 +27,7 @@ const GetRepos = () => {
       {
         repos.map(repo => {
           return <Card style={{ width: '25rem', marginRight: '1rem' }}>
-            <Card.Img variant="top" src={`https://react-portfolio-rob.s3.amazonaws.com/${repo.id}.png`} />
+            <Card.Img variant="top" src="https://react-portfolio-rob.s3.amazonaws.com/`${repo.id}`}.png" />
             <Card.Body>
               <Card.Title>{repo.name}</Card.Title>
               <Card.Text>

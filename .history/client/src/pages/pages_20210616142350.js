@@ -16,21 +16,25 @@ import GetRepos from '../utils/API'
 
 
 
-function Pages() {
+function Pages() {      
 
-  return (
-    <Container>
-      <Row>
-        <GetRepos />
-      </Row>
+      return (
+        <Container>
+          <Row>
+            <Col size="md-6">
+              <Jumbotron>              
+                <GetRepos/>                 
+              </Jumbotron>
+            </Col>
+          </Row>
 
-    </Container>
+        </Container>
+    
 
 
 
-
-  )
-
+      )
+    
 }
 
 

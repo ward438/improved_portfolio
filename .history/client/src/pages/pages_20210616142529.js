@@ -21,7 +21,13 @@ function Pages() {
   return (
     <Container>
       <Row>
-        <GetRepos />
+        <Col size="md-6">
+          <Jumbotron>
+            <Row>
+              <GetRepos />
+            </Row>
+          </Jumbotron>
+        </Col>
       </Row>
 
     </Container>
