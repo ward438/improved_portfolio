@@ -1,0 +1,24 @@
+{
+  "name": "improved_portfolio",
+  "version": "1.0.0",
+  "description": "Server: Mongoose, Express for server and database\r     Client: REACT,",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ward438/improved_portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ward438/improved_portfolio/issues"
+  },
+  "homepage": "https://github.com/ward438/improved_portfolio#readme",
+  "dependencies": {
+    "routes": "^2.1.0"
+  }
+}
