@@ -24,8 +24,7 @@ function Bio() {
                     Dev Tools: Heroku, GitHub
                 </ul>
                 <div>
-                    Education: AAS Welding Technology<br/><br/>
-                    OIF 08-09 Veteran
+                    Education: AAS Welding Technology
                 </div>
 
 

@@ -3,10 +3,11 @@ import { Navbar, Nav } from 'react-bootstrap';
 // import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import '../index.css'
 
+
 function Header() {
   return (
     <Navbar bg="secondary" expand="lg" className='{navbar}'>
-      <Navbar.Brand >RW Portfolio</Navbar.Brand>
+      <Navbar.Brand href="/">Portfolio</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">

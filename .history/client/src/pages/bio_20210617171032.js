@@ -10,22 +10,24 @@ function Bio() {
                 <Card.Img variant="top" style={{ width: '30%', borderRadius: '15px' }} src={`https://react-portfolio-rob.s3.amazonaws.com/131530476_127869602470312_4401820499573357152_n.jpg`} />
                 <Card.Title></Card.Title>
                 <Card.Text>
-                    My development career started January 2021 after enrolling in the UTSA Full Stack Developer Bootcamp. Heavily focused in JavaScript frameworks such as React and Node.                  
+                    Started my development career January of 2021 by enrolling in the UTSA Full Stack Developer Bootcamp. Heavily focused in JavaScript frameworks such as React and Node. Working knowledge of MySql and NoSql databases.
+
+                    Associate of Applied Science in Welding Technologies (Tyler Junior College)
+                    OIF 08-09 Veteran
                 </Card.Text>
             </Card.Body>
 
             <Card.Footer className="text-muted" className="techNames">
                 <ul>
                     Languages: JavaScript <br />
-                    Version Control: Git<br />
-                    Frameworks: React, Handlebars, JQuery, Node, Express <br />
-                    Databases: MySql,MongoDB (Sequelize ORM, Mongoose ODM) <br />
+                    Version Control: Git<br/>
+                    Frameworks: React, JQuery, Node, Express <br />                    
+                    Databases: MySql,MongoDB (Mongoose ODM) <br />                   
                     Development: Web Development, Scripting, Object Oriented Programming, API Interaction <br />
                     Dev Tools: Heroku, GitHub
                 </ul>
                 <div>
-                    Education: AAS Welding Technology<br/><br/>
-                    OIF 08-09 Veteran
+                    Education: AAS Welding Technology
                 </div>
 
 

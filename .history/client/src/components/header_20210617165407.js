@@ -5,7 +5,7 @@ import '../index.css'
 
 function Header() {
   return (
-    <Navbar bg="secondary" expand="lg" className='{navbar}'>
+    <Navbar bg="secondary" expand="lg" text="white" className='{navbar}'>
       <Navbar.Brand >RW Portfolio</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">

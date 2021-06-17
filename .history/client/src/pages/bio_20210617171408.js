@@ -10,7 +10,9 @@ function Bio() {
                 <Card.Img variant="top" style={{ width: '30%', borderRadius: '15px' }} src={`https://react-portfolio-rob.s3.amazonaws.com/131530476_127869602470312_4401820499573357152_n.jpg`} />
                 <Card.Title></Card.Title>
                 <Card.Text>
-                    My development career started January 2021 after enrolling in the UTSA Full Stack Developer Bootcamp. Heavily focused in JavaScript frameworks such as React and Node.                  
+                    My development career started January 2021 after enrolling in the UTSA Full Stack Developer Bootcamp. Heavily focused in JavaScript frameworks such as React and Node.
+                  
+                   
                 </Card.Text>
             </Card.Body>
 
@@ -24,8 +26,7 @@ function Bio() {
                     Dev Tools: Heroku, GitHub
                 </ul>
                 <div>
-                    Education: AAS Welding Technology<br/><br/>
-                    OIF 08-09 Veteran
+                    Education: AAS Welding Technology
                 </div>
 
 
