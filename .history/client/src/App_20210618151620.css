@@ -1,12 +1,7 @@
 .App {
   text-align: center;
-    
+  
 }
-
-/* body{
-  overflow-y: hidden;
-  overflow-x: hidden;
-} */
 
 .App-logo {
   height: 40vmin;
@@ -44,10 +39,10 @@
 }
 
 .footer{  
-  /* margin-top: 1rem; */
-  /* padding: .1rem;  */
+  margin-top: 1rem;
+  padding: .1rem;
   background-color: rgba(182, 179, 179, 0.541);
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
   left: 0;
   width: 100%;

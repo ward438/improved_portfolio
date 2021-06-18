@@ -26,13 +26,14 @@ const GetRepos = () => {
         repos.map(repo => {
           return <Card style={{ width: '25rem', marginRight: '1rem', borderRadius: '15px' }}>
             <Card.Body>
-              <Card.Title>{repo.name}</Card.Title>
-              <Card.Img variant="top" src={`https://react-portfolio-rob.s3.amazonaws.com/${repo.id}.png`} style={{ marginBottom: "10px" }}/>
+              <Card.Title>{repo.name}Title</Card.Title>
+              <Card.Img variant="top" src={`https://react-portfolio-rob.s3.amazonaws.com/${repo.id}.png`} />
               <Card.Text>
                 {repo.description}
-              </Card.Text>                              
+                <a href={`${repo.html_url}`}>Link</a>
+              </Card.Text>
+                              
             </Card.Body>
-            <a href={`${repo.html_url}`}>GitHub:&nbsp;{repo.name}</a><br/>
           </Card>
         })
       }
