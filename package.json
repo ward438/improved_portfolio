@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "react-scripts build"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,10 @@
   },
   "homepage": "https://github.com/ward438/improved_portfolio#readme",
   "dependencies": {
+    "express-favicon": "^2.0.1",
+    "favicon": "0.0.2",
+    "path": "^0.12.7",
+    "react-scripts": "^4.0.3",
     "routes": "^2.1.0"
   }
 }
