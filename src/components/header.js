@@ -11,7 +11,7 @@ function Header() {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
           <Nav.Link href="/" style={{ color: 'white', fontSize: '20px' }}>Home </Nav.Link>&nbsp;&nbsp;
-          <Nav.Link href="/portfolio" style={{ color: 'white',fontSize: '20px'}}>Portfolio</Nav.Link>          
+          <Nav.Link href="/portfolio" style={{ color: 'white',fontSize: '20px'}}>Portfolio COOLBEENZ</Nav.Link>          
         </Nav>       
       </Navbar.Collapse>
     </Navbar>

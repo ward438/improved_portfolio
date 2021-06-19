@@ -3,10 +3,6 @@
     
 }
 
-/* body{
-  overflow-y: hidden;
-  overflow-x: hidden;
-} */
 
 .App-logo {
   height: 40vmin;
@@ -43,9 +39,8 @@
   }
 }
 
-.footer{  
-  /* margin-top: 1rem; */
-  /* padding: .1rem;  */
+.footer{ 
+ 
   background-color: rgba(182, 179, 179, 0.541);
   position: fixed;
   bottom: 0;
