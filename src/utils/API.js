@@ -1,7 +1,6 @@
 
 import React, { useState, useEffect } from "react";
-import { Button, Card } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Card } from 'react-bootstrap';
 
 
 const GetRepos = () => {
@@ -24,7 +23,7 @@ const GetRepos = () => {
     <React.Fragment>
       {
         repos.map(repo => {
-          return <Card style={{ width: '25rem', marginRight: '1rem', borderRadius: '15px' }}>
+          return <Card key={repo.id} style={{ width: '25rem', marginRight: '1rem', borderRadius: '15px' }}>
             <Card.Body>
               <Card.Title>{repo.name}</Card.Title>
               <Card.Img variant="top" src={`https://react-portfolio-rob.s3.amazonaws.com/${repo.id}.png`} style={{ marginBottom: "10px" }}/>
