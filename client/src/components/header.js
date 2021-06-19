@@ -10,8 +10,8 @@ function Header() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href="/improved_portfolio/portfolio" style={{ color: 'white', fontSize: '20px' }}>Home </Nav.Link>&nbsp;&nbsp;
-          <Nav.Link href="/portfolio" style={{ color: 'white',fontSize: '20px'}}>Portfolio</Nav.Link>          
+          <Nav.Link href="/improved_portfolio" style={{ color: 'white', fontSize: '20px' }}>Home </Nav.Link>&nbsp;&nbsp;
+          <Nav.Link href="/improved_portfolio" style={{ color: 'white',fontSize: '20px'}}>Portfolio</Nav.Link>          
         </Nav>       
       </Navbar.Collapse>
     </Navbar>
